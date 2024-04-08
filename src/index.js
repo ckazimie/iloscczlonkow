@@ -1,3 +1,4 @@
+function activate_script() {
 document.getElementById('iloscCzlonkow').addEventListener('change', function () {
     var iloscCzlonkow = parseInt(this.value);
     var daneCzlonkowDiv = document.getElementById('daneCzlonkow');
@@ -63,3 +64,4 @@ document.getElementById('iloscCzlonkow').addEventListener('change', function () 
         });
     }
 });
+}
